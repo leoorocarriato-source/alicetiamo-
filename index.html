@@ -101,22 +101,6 @@
       transform: scaleY(1);
     }
 
-    /* Audio Player */
-    .audio-player {
-      margin-top: 30px;
-      padding: 15px;
-      background: rgba(255,255,255,0.1);
-      border-radius: 10px;
-      max-width: 500px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    audio {
-      width: 100%;
-      outline: none;
-    }
-
   </style>
 </head>
 
@@ -143,12 +127,6 @@
   E se potessi scegliere di nuovo, sceglierei sempre te 🤍
 </div>
 
-<!-- Audio Player YouTube -->
-<div class="audio-player">
-  <p style="font-size: 14px; margin-bottom: 10px;">🎵 La nostra musica 🎵</p>
-  <iframe width="100%" height="60" src="https://www.youtube.com/embed/1AUR6QqAn9A?autoplay=1&loop=1" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
 <script>
 /* cuori che cadono */
 setInterval(() => {
@@ -165,9 +143,6 @@ setInterval(() => {
 function openLetter() {
   const letter = document.getElementById("letter");
   letter.classList.add("open");
-  
-  // Aggiungi effetto sonoro (opzionale)
-  // Se vuoi un suono quando si apre la lettera
 }
 </script>
 
